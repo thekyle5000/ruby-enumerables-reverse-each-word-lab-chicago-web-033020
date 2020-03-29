@@ -12,5 +12,5 @@ final_array << r_array.join()
 
 end
 final_array.join(" ")
-binding.pry
+
 end
