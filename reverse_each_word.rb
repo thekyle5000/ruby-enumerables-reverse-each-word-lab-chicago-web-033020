@@ -2,7 +2,7 @@ require 'pry'
 def reverse_each_word(str) 
 str_array = str.split
 final_array = []
-str_array.collection do |char|
+str_array.collect do |char|
 r_array = []
 c = char.split(//)
 
