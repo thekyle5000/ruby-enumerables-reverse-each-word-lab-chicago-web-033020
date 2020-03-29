@@ -9,4 +9,4 @@ binding.pry
 c.reverse_each { |x| r_array << x }
 r_sentence = r_array.join(" ")
 end
-end
+end 
