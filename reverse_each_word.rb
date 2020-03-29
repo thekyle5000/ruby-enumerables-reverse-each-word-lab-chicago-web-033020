@@ -7,8 +7,9 @@ r_array = []
 c = char.split(//)
 
 c.reverse_each { |x| r_array << x }
-binding.pry
+
 final_array << r_array.join()
+binding.pry
 r_sentence = final_array.join(" ")
 end
 end 
