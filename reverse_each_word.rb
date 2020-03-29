@@ -10,6 +10,7 @@ c.reverse_each { |x| r_array << x }
 
 final_array << r_array.join()
 binding.pry
+end
 r_sentence = final_array.join(" ")
 end
 end 
